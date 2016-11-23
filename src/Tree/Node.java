@@ -1,3 +1,7 @@
+package Tree;
+
+import Tree.ExpressionTree;
+
 public class Node extends ExpressionTree {
     private String expression;
 

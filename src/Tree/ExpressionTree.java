@@ -1,3 +1,5 @@
+package Tree;
+
 public class ExpressionTree {
     private Node left;
     private Node right;
