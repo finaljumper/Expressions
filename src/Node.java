@@ -1,21 +1,22 @@
 public class Node extends ExpressionTree {
     private String expression;
-    private boolean derivative;
+
+    private boolean brackets;
 
     public Node(String expression) {
+        super();
         this.expression = expression;
-    }
-
-    public Node(String expression, boolean derivative) {
-        this.expression = expression;
-        this.derivative = derivative;
     }
 
     public String getExpression() {
         return expression;
     }
 
-    public void setDerivative(boolean derivative) {
-        this.derivative = derivative;
+    public boolean isBrackets() {
+        return brackets;
+    }
+
+    public void setBrackets(boolean brackets) {
+        this.brackets = brackets;
     }
 }
